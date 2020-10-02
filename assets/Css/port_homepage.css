@@ -16,12 +16,19 @@ body {
 		color: white;
 	}
 	#heading {
-		padding: 20px;
-	}
+		padding: 20px 40px 10px 40px;
+    }
+    #name {
+        color: rgb(33, 113, 155);
+        font-size: 30px;
+    }
 	.date {
 		text-align: left;
 		padding-left: 8px;
-	}
+    }
+    #contact {
+        color: rgb(33, 113, 155);
+    }
 	#bio-body {
 		display: grid;
 		grid-template-columns: 1fr 2fr 2fr;
@@ -106,7 +113,6 @@ body {
 		font-size: 12px;
 	}
 
-	
 	#project-video {
 		grid-area: video;
 		color: white;
