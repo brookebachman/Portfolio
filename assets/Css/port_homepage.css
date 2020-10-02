@@ -18,7 +18,7 @@ body {
 	#heading {
 		padding: 20px;
 	}
-	#date {
+	.date {
 		text-align: left;
 		padding-left: 8px;
 	}
