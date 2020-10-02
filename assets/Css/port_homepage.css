@@ -13,58 +13,24 @@ body {
 		text-align: center;
 		width: 100vw;
 		font-family: 'Hind Siliguri', sans-serif;
-		color: white;
+        color: white;
     }
-    
-    img {
-        height: 315px;
-        width: 255px;
-    }
-
-    #bio-body{
-        display: grid;
+    #bio-body {
+		display: grid;
 		grid-template-columns: 1fr 2fr 2fr;
 		grid-template-rows: 1fr 6fr;
 		grid-template-areas:
 			'top top top'
 			'bio blogs projects';
-		padding: 7px;
+        padding: 10px 7px;
+        background-color: rgb(252, 252, 174,.7);
+        margin: 0px 40px;
     }
-    #top-grid {
-		grid-area: top;
-		display: grid;
-		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-		grid-template-areas: 'name link1 link2 link3 link4';
-    }
-    #bio-title {
-		grid-area: bio;
-		margin: 10px;
-    }
-    #mid-first {
-		background-color: #47a899;
-		box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.2);
-		transition: 0.4s;
-		margin: 10px;
-    }
-    #contact {
-		grid-area: link1;
-	}
-	#youtube {
-		grid-area: link2;
-	}
-	#github {
-		grid-area: link3;
-    }
+   
     
-    #linkedin {
-        grid-area: link4;
+    img {
+        height: 335px;
+        width: 255px;
     }
-    #name {
-		grid-area: name;
-	}
-	#pic-div {
-		grid-area: pic;
-		padding: 10px;
-	}
+
 }
-    
