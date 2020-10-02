@@ -1,55 +1,54 @@
 html {
-    margin: 0px;
+	margin: 0px;
 }
 body {
-    margin: 0px;
+	margin: 0px;
 }
 
-@media(min-width: 800px){
-    #main {
-        background-image: url('../images/tile.jpg');
+@media (min-width: 800px) {
+	#main {
+		background-image: url('../images/tile.jpg');
 		background-size: cover;
 		height: 155vh;
 		text-align: center;
 		width: 100vw;
 		font-family: 'Hind Siliguri', sans-serif;
-        color: white;
-    }
-    #heading {
-        padding: 20px;
-    }
-    #date {
-        text-align: left;
-        padding-left: 8px;
-   
-    }
-    #bio-body {
+		color: white;
+	}
+	#heading {
+		padding: 20px;
+	}
+	#date {
+		text-align: left;
+		padding-left: 8px;
+	}
+	#bio-body {
 		display: grid;
 		grid-template-columns: 1fr 2fr 2fr;
 		grid-template-rows: 1fr 10fr;
 		grid-template-areas:
 			'top top top'
 			'bio blogs projects';
-        padding: 10px 7px;
-        background-color: rgba(244, 227, 134, 0.745);
-        margin: 0px 40px;
-        height: 127vh;
-    }
-    
-    #blog-card{
-        background-color: rgb(84, 161, 189);
-        margin: 10px;
-        padding: 12px;
-        height: 100vh;
-    }
-    #project-card {
-        background-color:  rgb(84, 161, 189);
-        margin: 10px;
-        padding: 12px;
-        height: 100vh;
-    }
+		padding: 10px 7px;
+		background-color: rgba(244, 227, 134, 0.745);
+		margin: 0px 40px;
+		height: 127vh;
+	}
+
+	#blog-card {
+		background-color: rgb(189, 84, 84);
+		margin: 10px;
+		padding: 12px;
+		height: 100vh;
+	}
+	#project-card {
+		background-color: rgb(189, 84, 84);
+		margin: 10px;
+		padding: 12px;
+		height: 100vh;
+	}
 	#top-grid {
-        padding: 5px;
+		padding: 5px;
 		grid-area: top;
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -62,11 +61,11 @@ body {
 	}
 
 	#mid-first {
-		background-color: #47a899;
+		background-color: #a8476c;
 		box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.2);
 		transition: 0.4s;
-        margin: 10px;
-        height: 103vh;
+		margin: 10px;
+		height: 103vh;
 	}
 
 	#contact {
@@ -77,19 +76,19 @@ body {
 	}
 	#github {
 		grid-area: link3;
-    }
-    
-    #linkedin {
-        grid-area: link4;
-    }
+	}
+
+	#linkedin {
+		grid-area: link4;
+	}
 
 	#name {
 		grid-area: name;
 	}
 	#pic-div {
 		grid-area: pic;
-        padding: 20px;
-        margin: 10px;
+		padding: 20px;
+		margin: 10px;
 	}
 	#pic {
 		border-radius: 50%;
@@ -101,7 +100,7 @@ body {
 		grid-area: location;
 	}
 
-	#Navbar{
+	#Navbar {
 		color: white;
 		grid-area: nav;
 		font-size: 12px;
@@ -114,8 +113,8 @@ body {
 		grid-area: video;
 		color: white;
 		font-size: 12px;
-    }
-    #github {
+	}
+	#github {
 		color: rgb(33, 113, 155);
 	}
 	a {
