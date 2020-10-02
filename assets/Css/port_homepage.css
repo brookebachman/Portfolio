@@ -16,7 +16,7 @@ body {
         color: white;
     }
     #heading {
-        padding: 60px;
+        padding: 30px;
     }
     #bio-body {
 		display: grid;
@@ -30,7 +30,14 @@ body {
         margin: 0px 40px;
     }
     #blog-card{
-        background-color: rgb(219, 166, 242);
+        background-color: rgb(84, 161, 189);
+        margin: 10px;
+        padding: 10px;
+    }
+    #project-card {
+        background-color:  rgb(84, 161, 189);
+        margin: 10px;
+        padding: 10px;
     }
 	#top-grid {
         padding: 10px;
@@ -71,7 +78,8 @@ body {
 	}
 	#pic-div {
 		grid-area: pic;
-		padding: 10px;
+        padding: 20px;
+        margin: 10px;
 	}
 	#pic {
 		border-radius: 50%;
