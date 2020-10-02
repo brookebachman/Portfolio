@@ -15,6 +15,9 @@ body {
 		font-family: 'Hind Siliguri', sans-serif;
         color: white;
     }
+    #heading {
+        padding: 60px;
+    }
     #bio-body {
 		display: grid;
 		grid-template-columns: 1fr 2fr 2fr;
@@ -23,14 +26,82 @@ body {
 			'top top top'
 			'bio blogs projects';
         padding: 10px 7px;
-        background-color: rgb(252, 252, 174,.7);
+        background-color: rgba(244, 227, 134, 0.745);
         margin: 0px 40px;
     }
-   
+    #blog-card{
+        background-color: rgb(219, 166, 242);
+    }
+	#top-grid {
+        padding: 10px;
+		grid-area: top;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+		grid-template-areas: 'name link1 link2 link3 link4';
+	}
+
+	#bio-title {
+		grid-area: bio;
+		margin: 10px;
+	}
+
+	#mid-first {
+		background-color: #47a899;
+		box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.2);
+		transition: 0.4s;
+		margin: 10px;
+	}
+
+	#contact {
+		grid-area: link1;
+	}
+	#youtube {
+		grid-area: link2;
+	}
+	#github {
+		grid-area: link3;
+    }
     
-    img {
-        height: 335px;
-        width: 255px;
+    #linkedin {
+        grid-area: link4;
     }
 
+	#name {
+		grid-area: name;
+	}
+	#pic-div {
+		grid-area: pic;
+		padding: 10px;
+	}
+	#pic {
+		border-radius: 50%;
+		height: 170px;
+		width: 155px;
+	}
+
+	#brooke-details {
+		grid-area: location;
+	}
+
+	#Navbar{
+		color: white;
+		grid-area: nav;
+		font-size: 12px;
+	}
+
+	.nav-items {
+		color: rgb(33, 113, 155);
+	}
+	#project-video {
+		grid-area: video;
+		color: white;
+		font-size: 12px;
+    }
+    #github {
+		color: rgb(33, 113, 155);
+	}
+	a {
+		text-decoration: none;
+		font-size: 18px;
+	}
 }
