@@ -17,10 +17,12 @@ body {
 		color: white;
 }
 
-#heading {
+#bio-body {
     margin: 20px;
     padding: 11.5px 7px;
-    background-color: rgb(255, 255, 255,.9);
+    background-color: rgba(244, 227, 134, 0.745);
+
+
 }
 #name {
     margin: 10px;
@@ -52,7 +54,6 @@ body {
 
 #linkedin {
     grid-area: linkedin;
-
     background-color: rgba(244, 227, 134, 0.745);
 }
 
@@ -136,15 +137,13 @@ a {
 	#main {
 		background-image: url('../images/tile.jpg');
 		background-size: cover;
-		height: 155vh;
+		height: 195vh;
 		text-align: center;
 		width: 100vw;
 		font-family: 'Hind Siliguri', sans-serif;
 		color: white;
 	}
-	#heading {
-		padding: 20px 40px 10px 40px;
-    }
+
     #name {
         color: rgb(33, 113, 155);
         font-size: 30px;
@@ -163,18 +162,24 @@ a {
 		grid-template-areas:
 			'top top top'
 			'bio blogs projects';
-		padding: 10px 7px;
+		padding: 10px;
 		background-color: rgba(244, 227, 134, 0.745);
 		margin: 0px 40px;
-		height: 127vh;
+		height: 134vh;
 	}
 
 	#blog-card {
 		background-color: rgb(189, 84, 84);
 		margin: 10px;
 		padding: 12px;
-		height: 100vh;
+        align-items: center;
     }
+    #project-card {
+		background-color: rgb(189, 84, 84);
+		margin: 10px;
+		padding: 12px;
+   
+	}
     #blog-title {
         font-size: 23px;
     }
@@ -186,12 +191,7 @@ a {
         font-size: 17.6px;
         padding: 15px;
     }
-	#project-card {
-		background-color: rgb(189, 84, 84);
-		margin: 10px;
-		padding: 12px;
-		height: 100vh;
-	}
+	
 	#top-grid {
 		padding: 5px;
 		grid-area: top;
@@ -210,7 +210,6 @@ a {
 		box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.2);
 		transition: 0.4s;
 		margin: 10px;
-		height: 103vh;
 	}
 
 	#contact {
@@ -309,6 +308,15 @@ a {
         text-shadow:0px 1px 0px #3d768a;
         margin: 10px;
     }
-    
+    #video {
+        height: 20vh;
+        width: 17vw;
+    }
+
+    #photo {
+        height: 20vh;
+        width: 17vw;
+        border-radius: 0px;
+    }
             
 }
