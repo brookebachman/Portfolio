@@ -8,7 +8,7 @@ body {
 
     #main-post {
         background-image: url('../images/tile.jpg');
-        height: 220vh;
+        height: 240vh;
         text-align: center;
         width: 100vw;
         margin-bottom: 400px;
@@ -18,7 +18,6 @@ body {
     #baby-main {
         padding: 20px;
         text-align: center;
-      
     }
 
     #content {
@@ -60,7 +59,8 @@ body {
         font-size: 12px;
     }
     #blog-content {
-        font-size: 1.3em;
+        font-size: 1.5em;
+        padding: 50px;
     }
     #nav {
         display: flex;
