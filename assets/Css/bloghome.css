@@ -20,6 +20,10 @@ body {
 .fig {
 	font-size: 0.8em;
 }
+a {
+    text-decoration: none;
+    color: rgb(55, 50, 50);
+}
 @media (min-width: 700px) {
 	#main {
 		width: 100vw;
@@ -30,7 +34,7 @@ body {
 		background-size: cover;
 	}
 	#heading {
-		padding: 20px;
+		
 	}
 	a {
 		text-decoration: none;
@@ -58,11 +62,12 @@ body {
 		font-family: 'Hind Siliguri', sans-serif;
 	}
 
-	img {
-		height: 30vh;
-		width: 11vw;
-		padding: 10px;
-	}
+    .blog-pic {
+        height: 17vh;
+        width: 8vw;
+        padding: 10px;
+        border-radius: 0px;
+    }
 	.blog-link {
 		color: lightblue;
 	}
