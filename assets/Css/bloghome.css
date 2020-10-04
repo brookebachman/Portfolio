@@ -11,18 +11,22 @@ body {
 	background-color: rgb(176, 159, 159);
 	padding: 20px;
 	margin: 15px;
-	box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.2);
+   
 }
 
 .blog-pic {
-	height: 35vh;
-	width: 48vw;
-	padding: 10px;
-	border-radius: 0px;
+	height: 32vh;
+	width: 45vw;
+    border-radius: 0px;
+    align-self: center;
 }
-
+#date {
+    text-align: left;
+}
 .fig {
-	font-size: 0.8em;
+    font-size: 0.7em;
+    color: rgb(85, 82, 82);
 }
 a {
     text-decoration: none;
