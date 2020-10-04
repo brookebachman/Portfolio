@@ -28,7 +28,14 @@ a {
     text-decoration: none;
     color: rgb(55, 50, 50);
 }
-
+#heading {
+ padding: 20px;
+}
+#blogs-content {
+    background-color: rgba(222, 222, 152, 0.8);
+    padding: 20px;
+ 
+}
 @media (min-width: 700px) {
 	#main {
 		width: 100vw;
