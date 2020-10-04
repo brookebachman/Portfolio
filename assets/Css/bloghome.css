@@ -3,6 +3,10 @@ body {
 	margin: 0px;
 }
 
+#main {
+    background-image: url('../images/tile.jpg');
+}
+
 .blog-card {
 	background-color: rgb(176, 159, 159);
 	padding: 20px;
@@ -24,6 +28,7 @@ a {
     text-decoration: none;
     color: rgb(55, 50, 50);
 }
+
 @media (min-width: 700px) {
 	#main {
 		width: 100vw;
@@ -45,11 +50,12 @@ a {
 	}
 	#home {
 		color: white;
-	}
-	#content {
-		background-color: rgb(242, 203, 130, 0.75);
-		padding: 40px;
-		margin: 20px;
+    }
+    #heading{
+        padding: 40px;
+    }
+	#blogs-content {
+		background-color:rgb(128, 128, 128,.8);
 		height: 95vh;
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
