@@ -1,38 +1,54 @@
-html, body {
-    margin: 0px;
+html,
+body {
+	margin: 0px;
 }
 
+.blog-card {
+	background-color: rgb(176, 159, 159);
+	padding: 20px;
+	margin: 15px;
+	box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.2);
+}
 
+.blog-pic {
+	height: 35vh;
+	width: 48vw;
+	padding: 10px;
+	border-radius: 0px;
+}
+
+.fig {
+	font-size: 0.8em;
+}
 @media (min-width: 700px) {
-    #main {
-        width: 100vw;
-        height: 150vh;
-        padding-top: 0px;
-        margin: 0px;
-        background-image: url('../images/tile.jpg');
+	#main {
+		width: 100vw;
+		height: 150vh;
+		padding-top: 0px;
+		margin: 0px;
+		background-image: url('../images/tile.jpg');
 		background-size: cover;
-       
-    }
-    #heading {
-        padding: 20px;
-    }
-    a {
-        text-decoration: none;
-        color: white;
-    }
-    #small{
-        margin: 20px;
-        color: white;
-        padding: 10px;
-    }
-    #home {
-        color: white;
-    }
-    #content {
-        background-color: rgb(242, 203, 130, 0.75);
-        padding: 40px;
-        margin: 20px;
-        height: 95vh;
+	}
+	#heading {
+		padding: 20px;
+	}
+	a {
+		text-decoration: none;
+		color: white;
+	}
+	#small {
+		margin: 20px;
+		color: white;
+		padding: 10px;
+	}
+	#home {
+		color: white;
+	}
+	#content {
+		background-color: rgb(242, 203, 130, 0.75);
+		padding: 40px;
+		margin: 20px;
+		height: 95vh;
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 		grid-template-rows: 1fr 6fr;
@@ -40,39 +56,39 @@ html, body {
 			' title title title link1 link2'
 			'blog1 blog2 blog3 blog4 blog4';
 		font-family: 'Hind Siliguri', sans-serif;
-    }
-    img {
+	}
+
+	img {
 		height: 30vh;
 		width: 11vw;
-    }
-    .blog-link {
-        color: lightblue;
-    }
-    .blog-card {
+		padding: 10px;
+	}
+	.blog-link {
+		color: lightblue;
+	}
+	.blog-card {
 		background-color: rgb(191, 70, 70);
 		padding: 15px;
 		box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.2);
-        transition: 0.4s;
-        margin: 20px;
-        font-size: 16px;
-        height: 85vh;
+		transition: 0.4s;
+		margin: 20px;
+		font-size: 16px;
+		height: 85vh;
 	}
 
-    #blog-content {
+	#blog-content {
 		font-size: 16px;
 		padding: 20px;
-    }
-    
-    #photo {
-        height: 20vh;
-        width: 20vw;
-    }
-    #date {
-        align-items: left;
-    }
-    .nav-items {
-        color: white;
-    }
-    
+	}
 
+	#photo {
+		height: 20vh;
+		width: 20vw;
+	}
+	#date {
+		align-items: left;
+	}
+	.nav-items {
+		color: white;
+	}
 }

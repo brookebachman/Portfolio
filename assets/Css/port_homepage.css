@@ -19,7 +19,7 @@ body {
 
 #heading {
     margin: 20px;
-    background-color: rgba(244, 227, 134, 0.845);
+    background-color: rgb(255, 255, 255,.9);
 }
 #name {
     margin: 10px;
@@ -28,7 +28,7 @@ body {
 }
 
 #mobile-top {
-    background-color: teal;
+    background-color: rgb(87, 85, 85);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
     grid-template-rows: 1fr 1fr;
@@ -39,7 +39,7 @@ body {
 }
 
 #mid-first {
-    background-color: rgb(20, 155, 149);
+    background-color: rgb(115, 116, 116);
     padding: 15px;
     margin: 15px;
 }
@@ -63,9 +63,65 @@ img {
     border-radius: 55%;
 }
 #blog-card {
-    background-color:  rgb(20, 155, 149);
+    background-color:  rgb(135, 115, 115);
     margin: 15px;
     padding: 15px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#project-card {
+    background-color:  rgb(101, 94, 94);
+    margin: 15px;
+    padding: 15px;
+}
+
+.myButton {
+    box-shadow: 0px 10px 14px -7px #276873;
+    background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+    background-color:#599bb3;
+    border-radius:8px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:13px;
+    font-weight:bold;
+    padding:8px 8px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #3d768a;
+    margin: 10px;
+}
+.myButton:hover {
+    background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+    background-color:#408c99;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}
+.button-link {
+    text-decoration: none;
+    color: white;
+}
+#project-link {
+    font-size: 13px;
+    box-shadow: 0px 10px 14px -7px #276873;
+    background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+    background-color:#599bb3;
+    border-radius:8px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:13px;
+    font-weight:bold;
+    padding:8px 8px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #3d768a;
+    margin: 10px;
 }
 
 @media (min-width: 800px) {
