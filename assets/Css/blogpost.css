@@ -6,7 +6,6 @@ body {
 
 @media (min-width: 800px){
 
-
     #main-post {
         background-image: url('../images/tile.jpg');
         height: 220vh;
@@ -14,13 +13,12 @@ body {
         width: 100vw;
         margin-bottom: 400px;
         font-family: 'Hind Siliguri', sans-serif;
-        padding: 20px;
     }
 
     #baby-main {
         padding: 20px;
-        justify-content: center;
-        margin: 40px;
+        text-align: center;
+      
     }
 
     #content {
