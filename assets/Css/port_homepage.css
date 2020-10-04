@@ -11,7 +11,7 @@ body {
 #main {
     background-image: url('../images/tile.jpg');
 		background-size: cover;
-		height: 275vh;
+		height: 355vh;
 		text-align: center;
 		font-family: 'Hind Siliguri', sans-serif;
 		color: white;
@@ -19,6 +19,7 @@ body {
 
 #heading {
     margin: 20px;
+    padding: 11.5px 7px;
     background-color: rgb(255, 255, 255,.9);
 }
 #name {
@@ -27,15 +28,10 @@ body {
     padding: 10px;
 }
 
-#mobile-top {
-    background-color: rgb(87, 85, 85);
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: 'email email email' 'youtube github linkedin';
-    margin: 15px;
-    padding: 15px;
-    color: white;
+#top-grid {
+    background-color: gray;
+    margin: 20px;
+    padding: 20px;
 }
 
 #mid-first {
@@ -128,6 +124,13 @@ a {
     margin: 10px;
 }
 
+#video {
+    height: 20vh;
+    width: 45vw;
+}
+#name {
+    color: white;
+}
 
 @media (min-width: 800px) {
 	#main {
