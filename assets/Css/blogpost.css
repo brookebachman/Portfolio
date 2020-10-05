@@ -6,7 +6,7 @@ body {
 #main-post {
 	background-image: url('../images/tile.jpg');
 	background-size: cover;
-	height: 400vh;
+	height: 480vh;
 	text-align: center;
 	width: 100vw;
 	margin-left: 0px;
@@ -25,14 +25,16 @@ body {
 
 #blog-content {
     font-size: 14.5px;
-    background-color: rgb(191, 70, 70);
+    background-color: rgb(159, 159, 159);
+    padding: 15px;
 }
 #main-title {
-	color: rgb(191, 70, 70);
+	color: rgb(193, 193, 193);
 	font-family: 'Hind Siliguri', sans-serif;
 	font-size: 25px;
 	text-align: center;
-	margin: 40px;
+    margin: 40px;
+    padding: 20px;
 }
 #title {
 	font-size: 18px;
@@ -71,6 +73,7 @@ body {
 }
 .link {
     color: blue;
+    font-size: 12px;
 }
 
 a {
