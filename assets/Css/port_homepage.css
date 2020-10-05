@@ -79,6 +79,7 @@ a {
     padding: 15px;
 }
 
+
 .myButton {
     box-shadow: 0px 10px 14px -7px #276873;
     background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
@@ -200,10 +201,6 @@ a {
 		grid-template-areas: 'name link1 link2 link3 link4';
 	}
 
-	#bio-title {
-		grid-area: bio;
-		margin: 10px;
-	}
 
 	#mid-first {
 		background-color: #a8476c;
